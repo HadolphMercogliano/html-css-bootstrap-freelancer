@@ -1,4 +1,14 @@
 /* GENERICS */
+.container_dim {
+    min-height: 100px;
+    background-color: aqua;
+}
+
+.col_color {
+    background-color: coral;
+    border: 1px solid black;
+    height: 50px;
+}
 
 /* HEADER */
 
