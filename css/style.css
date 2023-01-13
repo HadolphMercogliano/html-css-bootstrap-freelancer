@@ -1,9 +1,4 @@
 /* GENERICS */
-.container_debug {
-    min-height: 100px;
-    /* background-color: aqua; */
-}
-
 .blue {
     background-color: #0e38b5;
 }
@@ -28,17 +23,16 @@
     background-color: #ccb2a3;
 }
 
-.col_color {
-    background-color: coral;
-    border: 1px dashed black;
-    min-height: 50px;
-}
-
 .bar {
     width: 50px;
     height: 2px;
     background-color: black;
     border-radius: 2px;
+}
+
+h1,
+h2 {
+    font-weight: 700;
 }
 
 /* HEADER */
@@ -53,14 +47,25 @@ header .navbar-dark {
     color: white;
 }
 
-h1,
-h2 {
-    font-weight: 700;
-}
 
 #jumbotron .bar,
 #about .bar {
     background-color: white;
+}
+
+/* CONTACT ME */
+#contact-me textarea {
+    resize: horizontal;
+    border: none;
+    width: 100%;
+}
+
+#contact-me form input {
+    border: none
+}
+
+#contact-me form .btn.btn-primary {
+    background-color: #1abc9c;
 }
 
 
