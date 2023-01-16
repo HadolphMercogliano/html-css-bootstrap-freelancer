@@ -24,7 +24,7 @@
 }
 
 .bar {
-    width: 80px;
+    width: 10%;
     height: 3px;
     background-color: black;
     border-radius: 2px;
@@ -36,11 +36,21 @@ h2 {
 }
 
 /* HEADER */
+header {
+    position: fixed;
+    z-index: 1;
+    color: white;
+}
+
 header .navbar-dark {
     background-color: #2c3e50 !important;
 }
 
 /* MAIN */
+#jumbotron {
+    padding-top: 56px;
+}
+
 #jumbotron,
 #about {
     background-color: #1abc9c;
@@ -50,6 +60,12 @@ header .navbar-dark {
 
 #jumbotron .bar,
 #about .bar {
+    background-color: white;
+}
+
+/* ABOUT */
+.btn-outline-light:hover {
+    color: #1abc9c;
     background-color: white;
 }
 

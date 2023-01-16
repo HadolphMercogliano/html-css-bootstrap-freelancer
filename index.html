@@ -24,10 +24,10 @@
 </head>
 
 <body>
-    <header>
+    <header class="w-100">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container justify-content-between">
-                <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                <a class="navbar-brand fw-bold" href="#">START BOOTSTRAP</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -35,9 +35,9 @@
                 </button>
                 <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
                     <div class="navbar-nav ">
-                        <a class="nav-link" aria-current="page" href="#">PORTFOLIO</a>
-                        <a class="nav-link" href="#">ABOUT</a>
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                        <a class="nav-link" href="#about">ABOUT</a>
+                        <a class="nav-link" href="#contact-me">CONTACT</a>
                     </div>
                 </div>
             </div>
@@ -47,19 +47,22 @@
     <main>
         <!-- JUMBOTRON -->
         <section id="jumbotron">
-            <div class="container d-flex flex-column justify-content-center align-items-center py-4">
-                <div class="col-auto text-center">
-                    <img src="./img/avatar.svg" alt="AVATAR">
+            <div class="container">
+                <div class="row d-flex flex-column justify-content-center align-items-center pb-4">
+                    <div class="col-auto text-center">
+                        <img src="./img/avatar.svg" alt="AVATAR">
 
-                    <h1>START BOOTSTRAP</h1>
-
-                    <div class="separator d-flex justify-content-center align-items-center p-2">
-                        <span class="bar "></span>
-                        <i class="fa-solid fa-star mx-1"></i>
-                        <span class="bar"></span>
+                        <h1>START BOOTSTRAP</h1>
                     </div>
+                    <div class="col-12 text-center">
 
-                    <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                        <div class="separator d-flex justify-content-center align-items-center p-2">
+                            <span class="bar "></span>
+                            <i class="fa-solid fa-star mx-1"></i>
+                            <span class="bar"></span>
+                        </div>
+                        <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -126,7 +129,7 @@
                     </div>
                     <div class="col-9 col-md-5 col-xl-4 ">
                         <p>
-                            Freelancer i s a free bootstrap theme created by Start Bootstrap. The download includes the
+                            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
                             complete source files including HTML, CSS, and JavaScript as well as optional LESS
                             stylesheet for easy customization.
                         </p>
